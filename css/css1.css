@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+	font-size:20px;}
+div li {
+	display:inline;
+	margin-right:30px;}/*change 15 to 30 px*/
+#header {
+	height:90px;}
+#footer {
+	height:300px;
+	background-color:#400040;
+	text-align:center;
+	font-size:16px;
+	color:#FFF;}
+.footer {
+	margin:10px 5px 10px 5px;}
+p.footer {
+	padding-bottom:15px;
+	border-bottom-color:#FFF;
+	border-bottom-width:thin;
+	border-bottom-style:solid;}
+#footer img {
+	width:40px;
+	height:40px;
+	margin-top:20px;
+	margin-right:auto;}
+
+#nav a:link {
+	 color:#000;
+	 text-decoration:none;}
+
+#nav a:visited {
+	color:#000;}
+
+#nav a:hover {
+	color:#999;
+	text-decoration:none;}
+
+#nav a:active {
+	color:#800080;}
+
+#icon a:link {
+	 color:#400040;
+	 text-decoration:none;}
+
+#icon a:visited {
+	color:#400040;}
+
+#icon a:hover {
+	color:#999;
+	text-decoration:none;}
+
+#icon a:active {
+	color:#800080;}
+
+#footer a:link {
+	 color:#FFF;
+	 text-decoration:none;}
+
+#footer a:visited {
+	color:#FFF;}
+
+#footer a:hover {
+	color:#CCC;
+	text-decoration:none;}
+
+#footer a:active {
+	color:#CCC;}

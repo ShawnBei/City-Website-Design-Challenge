@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bristol Culture</title>
+    <link rel="stylesheet" type="text/css" href="css/960_12_col.css"  />
+    <link rel="stylesheet" type="text/css" href="css/text.css"  />
+    <link rel="stylesheet" type="text/css" href="css/css1.css" media="all">
+    <script src="js/js1.js"></script>
+      <style type="text/css">
+/*--Form homepage--------------------------------------*/
+        img#icon {
+          float:left;
+          margin-right:15px;}
+        #im1{
+          background-image:url(images/bn1.jpg);
+          background-size:cover;
+          height:400px;
+          text-align:center;
+          padding-top:90px;
+          color:#FFF;
+          font-size:30px;}
+        h1 {
+          font-size:85px;
+          margin-top:10px;
+          margin-bottom:0px;}
+        .article  a:link {
+          color:#400040;
+          text-decoration:none;}
+        .article a:visited {
+          color:#400040;}
+        .article a:hover {
+          color:#999;
+          text-decoration:none;}
+        .article a:active {
+          color:#800080;}
+
+/*--culture own----------------------------------------*/
+        .para{
+          font-size: 19px;
+          font-family:"Comic Sans MS", cursive, serif;
+          color:rgb(100,100,100);
+          margin: 15px;}
+        .grid_3{
+          height: 90px;}
+        .grid_9{
+          margin: 10px 0px 0px 0px;
+          font-family:"Comic Sans MS", cursive, serif;}
+        .firstp{
+          margin:13px 0px;}
+        li.two {
+          margin:0px 72px;}
+        #im3,
+        #im4,
+        #im5{
+          border-top-color:#6A006A;
+          border-top-width:thin;
+          border-top-style:solid;}
+        #im6{
+          border-top-color:#6A006A;
+          border-top-width:thin;
+          border-top-style:solid;
+          border-bottom-color:#6A006A;
+          border-bottom-width:thin;
+          border-bottom-style:solid;}
+        .top1 {
+          float: right;
+          font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;}
+        h2 {
+          font-size: 30px;
+          float: left;
+          margin-top: 15px;
+          font-weight:normal;
+          border-left-color:#6A006A;
+          border-left-width:thick;
+          border-left-style:solid;}
+        h3 {
+          float: left;
+          font-size: 24px;
+          margin-top: 15px;
+          margin-bottom: 0px;
+          font-weight:normal;
+          border-left-color:#6A006A;
+          border-left-width:3.5px;
+          border-left-style:solid;}
+        #am1,#am5,#am6,#am7 {
+          margin-top: 80px;
+          margin-left:30px;
+          margin-bottom: 20px;
+          border-color:rgb(239,239,239);
+          border-width:1px;
+          border-style:solid;
+          border-radius: 6px;
+          -moz-box-shadow: 0 0 10px #dfdbdb;
+          -webkit-box-shadow: 0 0 10px #dfdbdb;
+          box-shadow: 0 0 10px #dfdbdb;}
+        #bm1,#bm2,#bm4,#bm5,#bm7 {
+          float: right;
+          margin: 12px 10px 0 10px;}
+        #bm3 {
+          float: left;
+          margin: 10px 12px 0 0px;}
+        #bm6 {
+          width: 100%;}
+        #cm1,#cm2,#cm3,#cm4{
+          margin: 65px 0 0 0;}
+        #table1 {
+          color: rgb(100,100,100);
+          margin: 0 15px 15px 15px;}
+        #table2 {
+          float: left;
+          color: rgb(100,100,100);
+          margin: 20px 20px 0px 20px;
+          border: 0.5px solid rgb(200,200,200);}
+        td{
+          text-align: center;
+          border-top: 0.5px solid rgb(200,200,200);}
+        .rightt{
+          border-right: 0.5px solid rgb(200,200,200);}
+        #am2,#am3,#am4{
+          border-width:1px;
+          border-color:rgb(239,239,239);
+          border-style:solid;
+          margin:10px 0 20px 30px;
+          border-radius: 6px;
+          -moz-box-shadow: 0 0 10px #dfdbdb;
+          -webkit-box-shadow: 0 0 10px #dfdbdb;
+          box-shadow: 0 0 10px #dfdbdb;}
+        .lili{
+          color:rgb(100,100,100);
+          font-size: 15px;
+          font-family:"Comic Sans MS", cursive, serif;
+          display:block;}
+        .ulul{
+          list-style-type: disc;}
+
+        /* Dropdown Button */
+        .dropbtn {
+          background-color: white;
+          color: #400040;
+          border: none;
+          cursor: pointer;
+          font-style: normal;
+          font-size: 20px;
+          }
+
+        /* The container <li> - needed to position the dropdown content */
+        .dropdown {
+          position: relative;
+          display: inline-block;}
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+          padding: 12px 16px;
+          display: block;}
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+          background-color: #f1f1f1;}
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {
+          display:block;}
+
+/* dropdown边上的小箭头*/
+        .caret {
+          display: inline-block;
+          width: 0;
+          height: 0;
+          margin-left: 4px;
+          vertical-align: middle;
+          border-top: 4px dashed;
+          border-right: 4px solid transparent;
+          border-left: 4px solid transparent;}
+
+
+      </style>
+  </head>
+  <body>
+    <div class="container_12 clearfix">
+      <div id="header">
+        <div id="icon" class="grid_3">
+        <a href="home.html" ><img id="icon" src="images/icon.png" alt="The icon of Bristol"><p class="firstp" style="font-size:36px; font-family:'Comic Sans MS', cursive, serif;"><i>Bristol</i></p></a>
+        </div>
+          <div id="nav" class="grid_9" align="right">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="government.html">Government</a></li>
+              <li><a href="#header">Culture</a></li>
+              <li><a href="sight.html">Sight</a></li>
+              <li><a href="education.html">Education</a></li>
+            </ul>
+          </div>
+      </div>
+
+      <div id="im1" class="article grid_12">
+        <p style="margin-bottom:10px; font-size:24px; /">Bristol</p>
+        <h1>Culture</h1>
+        <p style="margin-top:5px; font-family:'Comic Sans MS', cursive, serif; font-size:30px;  /">a centre for the arts and sports</p>
+      </div>
+
+      <div id="im2" class="article grid_12">
+        <ul>
+          <li class="dropdown two">
+              <a onclick="myFunction()" class="dropbtn">Art<span class="caret"></span></a>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#am1">Theatre</a>
+                <a href="#am2">Music</a>
+                <a href="#am3">Museum & Galleries</a>
+                <a href="#am4">Graffiti</a>
+              </div>
+          </li>
+          <li class="two"><a href="#im4">Architecture</a></li>
+          <li class="two"><a href="#im5">Sport</a></li>
+          <li class="two"><a href="#im6">Dialect</a></li>
+        </ul>
+      </div>
+
+      <div id="im3" class="article grid_12">
+        <h2>&nbsp;&nbsp;Art</h2>
+        <div id="am1">
+          <h3>&nbsp;&nbsp;Theatre</h3>
+          <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+          <div id="cm1">
+            <p class="para"><img id="bm1" src="images/bn2.jpg" title="The Old Vic"/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bristol's theatre scene includes a large variety of producing theatre companies, apart from the <a href="https://en.wikipedia.org/wiki/Bristol_Old_Vic">Bristol Old Vic</a>, including Show of Strength Theatre Company, <a href="https://en.wikipedia.org/wiki/Shakespeare_at_the_Tobacco_Factory">Shakespeare at the Tobacco Factory</a>, acta community theatre, Myrtle Theatre, Cirque Bijou, Desperate Men, Theatre West and Travelling Light Theatre Company. Theatre Bristol is a partnership between Bristol City Council, <a href="https://en.wikipedia.org/wiki/Arts_Council_England">Arts Council England</a> and local theatre practitioners which aims to develop the theatre industry in Bristol. There are also a number of organisations within the city which act to support theatre makers, for example Equity, the actors union, has a General Branch based in the city, and Residence which provides office, social and rehearsal space for several Bristol based theatre and performance companies.</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.bristol.ac.uk/drama/">The University of Bristol Drama Department</a> offers undergraduate and post-graduate degrees in performance and screen studies. The University of the West of England offers undergraduate and post-graduate drama and film programmes. Circomedia is a training school for circus and physical theatre skills offering foundation degrees and BTEC courses.</br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In addition there are around 25 active non-professional theatre companies in the Greater Bristol area listed in Bristol City Council's Leisure and Culture database.
+            </p>
+          </div>
+
+        <table id="table1">
+          <tr>
+            <th width="150px" class="rightt">Name</th>
+            <th class="rightt">Address</th>
+            <th width="60px" class="rightt">Opened</th>
+            <th class="rightt">Use</th>
+            <th>Notes</th>
+          </tr>
+          <tr>
+            <td class="rightt">Albany Centre</td>
+            <td class="rightt">Shaftesbury Avenue, Montpelier</td>
+            <td class="rightt">1982</td>
+            <td class="rightt">theatre, comedy, dance</td>
+            <td>now an artist led cooperative, used as a rehearsal space</td>
+          </tr>
+          <tr>
+            <td class="rightt">Alhambra Theatre</td>
+            <td class="rightt"></td>
+            <td class="rightt">1870</td>
+            <td class="rightt">music hall</td>
+            <td>also known as the Forester's Music Hall, demolished 1900</td>
+          </tr>
+          <tr>
+            <td class="rightt">Alma Tavern Theatre</td>
+            <td class="rightt">Alma Vale Road, Clifton</td>
+            <td class="rightt">1997</td>
+            <td class="rightt">pub theatre</td>
+            <td>home to Theatre West, also visiting companies including <a href="https://en.wikipedia.org/wiki/Bristol_Old_Vic_Theatre_School"><b>Bristol Old Vic Theatre School</b></a></td>
+          </tr>
+          <tr>
+            <td class="rightt"><a href="https://en.wikipedia.org/wiki/Arnolfini" title="Arnolfini"><b>Arnolfini</b></a></td>
+            <td class="rightt">Narrow Quay</td>
+            <td class="rightt">1975</td>
+            <td class="rightt">theatre, live art, dance, film</td>
+            <td>arts centre, with adjacent galley spaces and bookshop</td>
+          </tr>
+          <tr>
+            <td class="rightt">Bedminster Hippodrome</td>
+            <td class="rightt">East Street, Bedminster</td>
+            <td class="rightt">1911</td>
+            <td class="rightt">music hall, theatre</td>
+            <td>converted into a cinema in 1915</td>
+          </tr>
+          <tr>
+            <td class="rightt">Bierkeller Theatre</td>
+            <td class="rightt">All Saints Street</td>
+            <td class="rightt">2012</td>
+            <td class="rightt">theatre, comedy</td>
+            <td>receiving house, former nightclub</td>
+          </tr>
+          <tr>
+            <td class="rightt"><a href="https://en.wikipedia.org/wiki/Tobacco_Factory_Theatre#Brewery_Theatre" title="Tobacco Factory Theatre"><b>Brewery Theatre</b></a></td>
+            <td class="rightt">North Street, Bedminster</td>
+            <td class="rightt">2009</td>
+            <td class="rightt">theatre, comedy</td>
+            <td>programmed by the <a href="https://en.wikipedia.org/wiki/Tobacco_Factory_Theatre" title="Tobacco Factory Theatre"><b>Tobacco Factory Theatre</b></a></td>
+          </tr>
+          <tr>
+            <td class="rightt"><a href="https://en.wikipedia.org/wiki/Bristol_Hippodrome" title="Bristol Hippodrome"><b>Bristol Hippodrome</b></a></td>
+            <td class="rightt">St Augustines Parade</td>
+            <td class="rightt">1912</td>
+            <td class="rightt">theatre, musicals, comedy, concerts, opera</td>
+            <td>receiving house operated by <a href="https://en.wikipedia.org/wiki/Ambassador_Theatre_Group" title="Ambassador Theatre Group"><b>Ambassador Theatre Group</b></a></td>
+          </tr>
+        </table>
+      </div><!--am1 finished here-->
+
+      <div id="am2">
+        <h3>&nbsp;&nbsp;Music</h3>
+        <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+        <div id="cm2">
+          <p class="para"><img id="bm2" src="images/bn3.jpg" title="The Pop Group"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The music scene is thriving and significant. In 2010, PRS for Music announced that Bristol is the 'most musical' city in the UK, based on the number of PRS members born in Bristol relative to its population. From the late 1970s onwards it was home to a crop of cultish bands combining punk, funk, dub and political consciousness, including <a href="https://en.wikipedia.org/wiki/The_Pop_Group">The Pop Group</a>, close friends of The Cortinas, who led the City's punk scene from 1976. Bristol's premier fanzine from this time through until early 1978 was Loaded. It featured all of the Bristol bands as well as those who visited the city, some of whom were promoted by the magazine.</br><img id="bm3" src="images/bn4.jpg" title="Drum and Bass" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ten years later, Bristol was the birthplace of a type of English hip-hop music called <a href="https://en.wikipedia.org/wiki/Trip_hop">trip hop</a> or the Bristol Sound, epitomised in the work of artists such as Tricky, Portishead, Smith & Mighty and Massive Attack. It is also a stronghold of <a href="https://en.wikipedia.org/wiki/Drum_and_bass">drum and bass</a> with notable bands like the Mercury Prize winning Roni Size /Reprazent and Kosheen as well as the pioneering DJ Krust and More Rockers. The progressive house duo Way Out West also hails from Bristol. This music is part of the wider Bristol Urban Culture scene which received international media attention in the 1990s and still thrives today.
+          </p>
+        </div>
+      </div><!--am2 finished here-->
+
+      <div id="am3">
+        <h3>&nbsp;&nbsp;Museum & Galleries</h3>
+        <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+        <div id="cm3">
+          <p class="para"><img id="bm4" src="images/bn5.jpg" title="Bristol Museum & Art Gallery"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Bristol_City_Museum_and_Art_Gallery">The Bristol City Museum and Art Gallery</a> houses collections of natural history, local archaeology, local glassware, Egyptology, Chinese ceramics and art, including the Bristol School. Touring exhibitions from other galleries are regularly hosted.</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The City Museum is also responsible for:</br>
+          </p>
+          <ul class="ulul">
+            <li class="lili"><a href="https://en.wikipedia.org/wiki/Red_Lodge_Museum,_Bristol">The Tudor Red Lodge</a>, built in 1580 as the lodge for a 'Great House' which once stood on the site now occpied by the Colston Hall. Displays include Tudor and Georgian rooms and a Tudor knot garden.</li>
+            <li class="lili">The <a href="https://en.wikipedia.org/wiki/Georgian_House,_Bristol">Georgian House</a> was built by slave trader and plantation owner John Pinney in 1790 and is preserved in the style of a Georgian era town house.</li>
+            <li class="lili">The <a href="https://en.wikipedia.org/wiki/Blaise_Castle">Blaise Castle House</a> and estate on the northern outskirts of the city houses the social history collections. The grounds were designed by 18th century landscape gardener Humphry Repton and John Nash designed the dairy and conservatory.</li>
+            <li class="lili">The remains of <a href="https://en.wikipedia.org/wiki/Kings_Weston_Roman_Villa">Kings Weston Roman Villa</a> which is open on request.</li>
+          </ul>
+          <p class="para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Smaller collections include those of Spike Island, the Alexander Gallery, F-block at the School of Creative Arts, Bower Ashton, <a href="https://en.wikipedia.org/w/index.php?title=Bristol_Architecture_Centre&action=edit&redlink=1">Bristol Architecture Centre</a> and Glenside Museum. The Bristol Guild of Applied Art also has a small gallery. Science interests are catered for by the At-Bristol complex at Canon's Marsh, which includes 'hands-on' exhibits and a planetarium. <a href="https://en.wikipedia.org/wiki/Antlers_Gallery">Antlers Gallery</a>, a gallery nomadic by design produces temporary exhibitions across varying locations in Bristol.
+          </p>
+        </div>
+      </div><!--am3 finished here-->
+
+      <div id="am4">
+        <h3>&nbsp;&nbsp;Graffiti</h3>
+        <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+        <div id="cm4">
+          <p class="para"><img src="images/bn6.jpg" id="bm5" title="Banksy graffiti, Park Street"/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are several graffiti artists active in Bristol, probably the most known is <a href="https://en.wikipedia.org/wiki/Banksy">Banksy</a>, who produced the album cover for Think Tank by britpop band Blur. Other Bristol graffiti artists include <a href="https://en.wikipedia.org/wiki/Nick_Walker_(artist)">Nick Walker</a>, <a href="https://en.wikipedia.org/wiki/Sickboy_(artist)">Sickboy</a>, Inkie, Stars, Lokey, cheo.</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Massive Attack's Robert Del Naja was also active as a graffiti artist with the nicknames of "3D" and "Delge" in the early 1980s. He appeared in the UK documentary called "Bombin'" alongside Wolverhampton artist and later DJ and producer Goldie.</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.amazon.co.uk/Children-Can-Bristol-Graffiti-Street-x/dp/1906477809"><i>Children of the Can</i></a>: 25 Years of Bristol Graffiti by Felix Braun (FLX) and Steve Wright, is a book illustrating and documenting the street art scene in the city.</br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;900,000 people visited an exhibition of Banksy's work at the Bristol Museum in 2009. In August 2011 Bristol City Council finally recognised the importance of graffiti to the city's culture by allowing an entire street to be painted by various international street artists. In August 2011 the <a href="https://en.wikipedia.org/wiki/See_No_Evil_(artwork)">See No Evil</a> public art event was installed in Nelson Street, transforming it into a walk-through graffiti gallery. Among other works, it includes a 20-metre tall mural.
+          </P>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="im4" class="article grid_12">
+      <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+      <h2>&nbsp;&nbsp;Architecture</h2>
+      <div id="am5">
+        <p class="para"><img src="images/bn7.jpg" id="bm6" title="Bristol's skyline at sunset, from Bedminster"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bristol's architecture includes many examples of mediaeval, gothic, modern industrial and post-war architecture. Notable buildings include the gothic revival <a href="https://en.wikipedia.org/wiki/Wills_Memorial_Building">Wills Memorial Building</a>, and the tallest building in the city, <a href="https://en.wikipedia.org/wiki/St_Mary_Redcliffe">St Mary Redcliffe</a>. The city is noted for its Victorian industrial architecture of the Bristol Byzantine style, characterised by deep red and polychrome brickwork and Byzantine style arches.</br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The development of the floating harbour provided a focus for industrial development and the local transport infrastructure including the <a href="https://en.wikipedia.org/wiki/Clifton_Suspension_Bridge">Clifton Suspension Bridge</a> and <a href="https://en.wikipedia.org/wiki/Bristol_Temple_Meads_railway_station">Temple Meads railway station</a>, the original part of which was designed by Isambard Kingdom Brunel. The twentieth century saw further expansion of the city, with the growth of the University of Bristol buildings and the aircraft industry. During World War II the <a href="https://en.wikipedia.org/wiki/Bristol_city_centre">city centre</a> suffered from extensive bombing during the Bristol Blitz and redevelopment of shopping centres and office buildings continues into the twenty-first century.
+        </p>
+      </div>
+    </div>
+
+
+
+    <div id="im5" class="article grid_12">
+      <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+      <h2>&nbsp;&nbsp;Sport</h2>
+      <div id="am6">
+        <p class="para"><img src="images/bn8.jpg" id="bm7" title="Fun runners taking part in the 2006 Bristol Half Marathon"/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bristol has a number of notable professional sports teams and a large number of active amateur sports clubs. There are also large numbers of participants in individual sports. The city has two Football League clubs, <a href="https://en.wikipedia.org/wiki/Bristol_City_F.C.">Bristol City F.C.</a> who play in the second tier and <a href="https://en.wikipedia.org/wiki/Bristol_Rovers_F.C.">Bristol Rovers F.C.</a> who play in the third tier. Gloucestershire County Cricket Club has its headquarters in the city. Bristol Rugby are currently in the Aviva Premiership
+Bristol City Council operates a number of sports centres and swimming pools. The city has hosted the<a href="https://en.wikipedia.org/wiki/2001_IAAF_World_Half_Marathon_Championships" >2001 IAAF World Half Marathon Championships</a> and stage finishes and starts of the Tour of Britain cycle race. Facilities in Bristol were used as training camps for the <a href="https://en.wikipedia.org/wiki/2012_London_Olympics">2012 London Olympics</a>.</br>
+        </p>
+      </div>
+    </div>
+
+
+
+    <div id="im6" class="article grid_12">
+      <a href="#header"><p class="top1" style="margin-top:15px; margin-right:15px;">Top</p></a>
+      <h2>&nbsp;&nbsp;Dialect</h2>
+      <div id="am7">
+        <table id="table2">
+          <tr>
+            <th class="rightt" width="140px">RP English</th>
+            <th width="100px">Bristol</th>
+          </tr>
+          <tr>
+            <td class="rightt">/ɑː/ as in 'bath'</td>
+            <td>[a]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ɑː/ as in 'start'</td>
+            <td>[aɻ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/e/ as in 'dress'</td>
+            <td>[ɛ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/iː/ as in 'fleece'</td>
+            <td>[i]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/aɪ/ as in 'price'</td>
+            <td>(rounded) [ɑɪ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/əʊ/ as in 'goat'</td>
+            <td>[ɔʊ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/eɪ/ as in 'face'</td>
+            <td>[ɛɪ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ɔː/ as in 'thought'</td>
+            <td>[ɔ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/uː/ as in 'goose'</td>
+            <td>[u]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ɪə/ as in 'near'</td>
+            <td>[iɻ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/eə/ as in 'square'</td>
+            <td>[ɛ(ɪ)ɻ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ɔː/ as in 'force'</td>
+            <td>[ɔɻ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ɜː/ as in nurse</td>
+            <td>[ɝ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/uə/ as in 'cure'</td>
+            <td>[uɻ] or [ɔɻ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ə/ as in 'letter'</td>
+            <td>[ɚ]</td>
+          </tr>
+          <tr>
+            <td class="rightt">/ə/ as in 'comma'</td>
+            <td>[ə] or [ə̹]</td>
+          </tr>
+        </table>
+        <p class="para">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Older Bristolians and those that live in areas which have had less influence from students and immigration, such as <a href="https://en.wikipedia.org/wiki/Southmead">Southmead</a> and <a href="https://en.wikipedia.org/wiki/Hartcliffe">Hartcliffe</a>, speak a distinctive dialect of English (known colloquially as Brizzle or Bristle). Uniquely for a large city in England, this is a rhotic dialect, in which the r in words like car is pronounced.</br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The most unusual feature of this dialect, unique to Bristol, is the Bristol L (or Terminal L), in which an L sound is appended to words that end in a letter a. Additionally, -al is drawn out as -awl, and an l may be added within a word with an aw. Thus "area" becomes "areawl", "cereal" becomes "cereawl", "drawing" becomes "drawling" etc. This may lead to confusions between expressions like area engineer and aerial engineer which in "Bristle" sound identical. Other examples include 'Americawl' and 'Canadawl', and, when unsure, the answer 'I have no ideal'. In the same way, the Swedish Ikea is known by some as "Ikeawl", and Asda supermarket as "Asdawl". This is how the city's name evolved from Brycgstow to have a final 'L' sound: Bristol.
+        </p>
+      </div>
+    </div>
+
+
+
+      <div id="p6" class="article grid_12">
+        <a href="#header"><p class="top1" style="margin-top:10px; margin-right:15px; margin-bottom:10px;">Top</p></a>
+        <div id="footer" class="grid_12"  style="margin-left: 0px;">
+          <div class="footer grid_4">
+            <p class="footer">About us</p>
+            <p>Postcode: BS</p>
+            <p>Area code(s): 0117, 01275</p>
+            <p>ISO 3166 code: GB-BST</p>
+          </div>
+          <div class="footer grid_4">
+            <p class="footer">Links</p>
+            <a href="https://www.bristol.gov.uk/"><p>Bristol City Concil</p></a>
+            <a href="http://www.bristolmotorspeedway.com/"><p>Bristol Motor Speedway</p></a>
+          </div>
+          <div class="footer grid_4">
+            <p class="footer">Contect us</p>
+            <img src="images/facebook.png">
+            <img src="images/youtube.png">
+            <img src="images/twitter.png">
+            <img src="images/flickr.png">
+          </div>
+        </div>
+      </div>
+
+  </div><!-- .container_12 -->
+
+  </body>
+</html>
